@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cafe_javas</title>
+        <style>
+            /* Set the background image for the whole page */
+            body {
+                background-image: url('cafe backgroung.jpg');
+                background-size: cover;
+                margin: 0;
+                padding:0;
+                height: 100%;
+            }
+            /* Center the button on the page */
+            .centered-button {
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+                background-color: red; /* Red background */
+                color: white; /* white text */
+                padding: 10px 20px;
+                border: none;
+                cursor: pointer;
+            }
+            /* Align the image to the right corner */
+            .top-right-image {
+                position: absolute;
+                right: 0;
+                top: 10;
+                margin: 10px; /*adds a little space around the image */
+            }
+            /* style the text container */
+            .text-below-image {
+                position: absolute; 
+                top: 120px; /* adjusts based on the image height */
+                left: 10px; /* keeps it aligned with the top-right image */
+                color: white; /* adjust text color for visibility */
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Image in the top right corner -->
+        <img src="cafe.png" class="top-right-image" alt="Top left image">
+        <!-- center aligned red button-->
+        <button class="centered-button">START ORDER</button>
+        <!--Texts below the top-right corner image-->
+        <div class="text below image">
+            <p>MENU</p>
+            <hr>
+            <p>LOCATION</p>
+            <hr>
+            <p>CAREERS</p>
+            <hr>
+            <p>FEEDBACK</p>
+            <hr>
+            <p>ABOUT US</p>
+        </div>
+    </body>
+</html>

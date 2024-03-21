@@ -1,0 +1,64 @@
+form {
+    align-content: first baseline;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    margin-top: 100px;
+    margin-left: 400px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+body {
+    display: flex;
+    background-color: rgb(201, 210, 219);
+}
+
+.container {
+    margin-top: 150px;
+    margin-left: 10px;
+}
+
+input {
+    padding: 15px;
+    height: 20px;
+    width: 400px;
+}
+
+.pass {
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.Log {
+    margin-top: 20px;
+    width: 150px;
+    height: 40px;
+    margin-left: 130px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: rgb(13, 13, 172);
+}
+
+.Create {
+    margin-top: 10px;
+    width: 300px;
+    height: 40px;
+    margin-left: 70px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: #0eb10e;
+}
+
+a {
+    margin-top: 10px;
+    margin-left: 150px;
+}
+
+.email {
+    border-radius: 10px;
+}
+.container p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200px;
+}
